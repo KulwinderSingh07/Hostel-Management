@@ -1,0 +1,315 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.userdashboardheading{
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #232B2B;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+li{
+  text-align: center;
+}
+
+li a {
+  margin: 1.1rem 0rem;
+  display: block;
+  color: #000;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 0.7rem;
+  padding: 1rem;
+}
+
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+li a::after {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #DC3D24;
+  color: black;
+  color: white;
+}
+.leavebody{
+  background-color: #232B2B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leaveform{
+  width: 600px;
+  padding: 0.7rem 0rem;
+  margin:auto;
+  text-align:center;
+  border:1px solid;
+  border-radius: 13px;
+  margin:118.5px auto;
+  background-color: white;
+  backdrop-filter:blur(120px);
+  box-shadow: 0 8px 40px 0 rgba(0,0,0,0.37);
+}
+.leaveform input, .create textarea, .create select{
+  width:70%;
+  padding:6px 10px;
+  margin:10px;
+  border:1px solid #f1356d;
+  box-sizing:border-box;
+  display:block;
+}
+
+.leaveform input{
+  margin: 5px 5px 5px 100px;
+}
+.leaveform button{
+  background: #DC3D24;
+  font-size: large;
+  width: 15%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color:#fff;
+  border:0;
+  padding:8px;
+  border-radius:8px;
+  cursor:pointer;
+}
+.leaveform button:hover:not(.active) {
+  background-color: #04AA6D;
+  color: black;
+}
+.leaveform h2{
+  color:black;
+  padding: 1.3rem;
+}
+.leaveform .reasonbox{
+  height: 100px;
+}
+.allmenucards{
+  padding: 4px;
+  float:left;
+  color: #DC3D24;
+}
+.menucarsheader{
+  text-align:center;
+  background-color: white;
+  width:500px;
+  height: 350px;
+  border:2px solid #DC3D24;
+  border-radius: 20px;
+  backdrop-filter:blur(120px);
+  box-shadow: 0 8px 40px 0 rgba(0,0,0,0.37);
+}
+.menuheading{
+  padding: 1.2rem;
+  font-size:xx-large;
+  padding-bottom: 3rem;
+}
+.menubody{
+  padding: 0.5rem;
+  color:black;
+}
+.menudatamorning{
+  padding:1rem;
+}
+.menudataevening{
+  padding:1rem;
+}
+.menudatanight{
+  padding:1rem;
+}
+.admin_leave_header span{
+  padding-right: 8rem;
+}
+.admin_applicant_header span{
+  padding-right: 8rem;
+}
+.adminleave{
+  margin:5px;
+padding: 0.6rem;
+border: 0.5px solid black;
+box-sizing:content-box;
+background-color: #171717;
+color: white;
+border-radius: 10px;
+}
+.adminleavebody button{
+  background-color: rgb(84, 212, 84);
+  font-size: x-large;
+  border-radius: 0.5rem;
+  padding: 0.4rem;  
+}
+.complaintform{
+  width: 600px;
+  padding: 0.7rem 0rem;
+  margin:auto;
+  text-align:center;
+  border:1px solid;
+  border-radius: 13px;
+  margin:177px auto;
+  background-color: white;
+  backdrop-filter:blur(120px);
+  box-shadow: 0 8px 40px 0 rgba(0,0,0,0.37);
+}
+.complaintform input, .create textarea, .create select{
+  width:70%;
+  padding:6px 10px;
+  margin:10px;
+  border:1px solid #f1356d;
+  box-sizing:border-box;
+  display:block;
+}
+
+.complaintform input{
+  margin: 5px 5px 5px 100px;
+}
+.complaintform button{
+  background: #DC3D24;
+  font-size: large;
+  width: 15%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color:#fff;
+  border:0;
+  padding:8px;
+  border-radius:8px;
+  cursor:pointer;
+}
+.complaintform button:hover:not(.active) {
+  background-color: #04AA6D;
+  color: black;
+}
+.complaintform h2{
+  color:black;
+  padding: 1.3rem;
+}
+.complaintform .complaintbox{
+  height: 100px;
+}
+.detailshead{
+  margin-left:40%;
+}
+.profilephoto{
+  width:340px;
+  height:300px;
+  border-radius:200%;
+  border:4px solid #DC3D24;
+  margin-top: 1rem;
+  
+}
+table{
+  margin-left: 34%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+td{
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: larger;
+}
+
+.document1{
+  width:650px;
+  height:500px;
+  border-radius: 2rem;
+  border:2px solid white;
+}
+.document2{
+  border:2px solid white;
+  border-radius: 1rem;
+  width:650px;
+  height:500px;
+}
+.verificationdocs{
+  margin-left: 2%;
+}
+.verificationdocs div{
+  justify-content:center;
+  align-items: center;
+  padding-right: 4rem;
+  
+}
+.verificationdocs span{
+  padding: 2rem;
+}
+.verifierbutton {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-left: 45%;
+  padding: 0.8rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  width: 200px;
+  font-size: x-large;
+}
+.verifierbutton:hover:not(.active) {
+  background-color: #04AA6D;
+  color: white;
+  
+}
+.particruserdetails{
+  background-color: #1F2937;
+  margin: auto;
+  margin:0 0 0 -1
+}
+.verifbutton{
+  padding: 2rem;
+}
+.User-definer{
+  margin-left: 35%;
+}
+.User-definer h1{
+  font-size: xx-large;
+  padding: 2rem;
+  color: white;
+
+}
+.User-definer button{
+  margin-left:10%;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  background-color: #DC3D24;
+}
+.useroptions{
+  margin-left: 15%;
+  padding:200px;
+  padding-right: 0rem;
+}
+.useroptions button{
+  margin-left:10%;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
+  background-color: #DC3D24;
+}
+.User-definer button a{
+  text-decoration:  none;
+  font-size:x-large;
+  color: #000000;
+}
+.useroptions button a{
+  text-decoration:  none;
+  font-size:x-large;
+  color: #000000;
+}
