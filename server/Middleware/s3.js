@@ -1,6 +1,6 @@
 require("dotenv").config();
 const fs = require("fs");
-const AWS = require("aws-sdK");
+const AWS = require("aws-sdk");
 
 const bucketname = process.env.AWS_BUCKET_NAME;
 const region = process.env.AWS_BUCKET_REGION;

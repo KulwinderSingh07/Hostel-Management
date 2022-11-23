@@ -9,6 +9,9 @@ app.use(cors(corsoptions));
 app.use(cookieparser());
 app.use(express.json());
 
+app.get((_, res) => {
+  res.send("server running...");
+});
 app.use("/uploadfile", require("./Routes/fileluploadroute"));
 app.use("/user/leave", require("./Routes/leaveroute"));
 app.use("/user/complaint", require("./Routes/complaintrouter"));
